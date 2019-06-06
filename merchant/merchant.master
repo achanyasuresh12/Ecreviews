@@ -1,0 +1,140 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="merchant.master.cs" Inherits="merchant_merchant" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+       <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Yoga Lite Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="merchanttemp/web/css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="merchanttemp/web/css/style.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="merchanttemp/web/css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="merchanttemp/web///fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700" rel="stylesheet">
+    <!-- //Fonts -->
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+          <header class="py-sm-3 pt-3 pb-2" id="home">
+        <div class="container">
+            <!-- nav -->
+            <div class="top d-md-flex">
+                <div id="logo">
+                    <h1> <a href="merchant.aspx"><span class="fa fa-yoast"></span>Characterizing and Predicting Early Reviewers
+for Effective Product Marketing on E-Commerce
+Websites
+
+</a></h1>
+                </div>
+                <div class="search-form mx-md-auto">
+                    <div class="form-w3layouts-grid">
+                       <%-- <form action="#" method="post" class="newsletter">
+                            <input class="search" type="search" placeholder="Search..." required="">
+                            <button class="form-control btn" value=""><span class="fa fa-search"></span></button>
+                        </form>--%>
+                    </div>
+                </div>
+                <div class="forms mt-md-0 mt-2">
+                    <a href="../Home/Login.aspx" class="btn"><span class="fa fa-user-circle-o"></span> Logout</a>
+                    <%--<a href="admintemp/web/register.html" class="btn"><span class="fa fa-pencil-square-o"></span> Sign Up</a>--%>
+                </div>
+            </div>
+            <nav class="text-center">
+                <label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
+                <input type="checkbox" id="drop" />
+                <ul class="menu">
+                    <li class="active"><a href="merchant.aspx">Home</a></li>
+                    <li><a href="Viewproducts.aspx">View Products</a></li>
+                    <li><a href="Productanalysis.aspx">Product Analysis</a></li>
+                     <li><a href="../Home/Login.aspx">Logout</a></li>
+                   
+                </ul>
+            </nav>
+            <!-- //nav -->
+        </div>
+    </header>
+   <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+      
+
+    <div class="main-content" id="home">
+      
+    </div>
+        </asp:ContentPlaceHolder>
+        
+    <section class="banner-bottom py-5" style="    background-color: #dee2e6e8;">
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        <div class="container py-md-5">
+            <div class="row banner-grids mb-lg-5">
+
+
+                <div class="col-lg-7 content-right">
+                    <h3 class="title-w3pvt">Personalized Online Experience</h3>
+                    <h4>Can Scale Business Quickly</h4>
+                    <p class="mt-2 text-left">One of the ecommerce benefits is that it has a lower startup cost. Physical retail stores have to pay up to thousands of dollars to rent one of their store locations.</p>
+                    <p class="mt-2 text-left"> Also, they have several upfront costs such as store signs, store design, buying inventory, sales equipment, and more. Physical retail stores also have to pay staff to work and run each location. They may also need to hire security staff depending on the product value in the store.  </p>
+                    <div class="row stats text-left mt-5">
+                        <div class="col-lg-4 counter">
+                            <span class="fa fa-users"></span>
+                            <div class="counter-info">
+                                <h5>7200+</h5>
+                                <p>Members</p>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 counter two">
+                            <span class="fa fa-user-md"></span>
+                            <div class="counter-info">
+                                <h5>1150+</h5>
+                                <p>Classes</p>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 counter">
+                            <span class="fa fa-diamond"></span>
+                            <div class="counter-info">
+                                <h5>65+</h5>
+                                <p>Experience</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 content-left">
+                    <img src="merchanttemp/web/images/ADM-2016.06.27-Feedback.png" alt="" class="img-fluid">
+                </div>
+
+            </div>
+
+        </div>
+            </asp:ContentPlaceHolder>
+    </section>
+   
+    </div>
+        </form>
+</body>
+</html>
